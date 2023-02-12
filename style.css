@@ -1,0 +1,26 @@
+*{
+  /* margin: 0px; */
+  padding: 0px;
+}
+
+body {
+  background-image: linear-gradient(to right top, #6bd193, #6dd5a0, #71daac, #76deb7, #7ce2c2, #60decc, #40dad7, #00d5e2, #00c5f4, #00b1ff, #0099ff, #5f79fb);
+  height: 100vh;
+
+  font-family: "Brush Script MT", cursive;
+  font-size: 50px;
+  color: #34FFFF;
+  text-align: center;
+}
+
+input {
+  font-family: "Courier New", Courier, monospace;
+}
+
+button {
+  background-color: #24C29D;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: bold;
+
+}
