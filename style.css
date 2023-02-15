@@ -13,14 +13,46 @@ body {
   text-align: center;
 }
 
-input {
+.worries {
+  padding: 10px;
+  margin: auto;
+
+  background-color: #FFF;
   font-family: "Courier New", Courier, monospace;
+  color: #6A6A6A;
+  font-size: 20px;
+
+  border: 1px solid #6A6A6A;
+  border-radius: 3px;
+
+  max-width: 50%;
+  width: fit-content;
+  min-width: 20ch;
+  max-height: 50%;
+  word-wrap: break-word;
+  overflow-y: auto;
 }
 
-button {
-  background-color: #24C29D;
+.cleanseButton {
+  background:linear-gradient(#6bd193, #24C29D);
+  /* background-color: #24C29D; */
   color: #FFF;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: bold;
+  font-family: serif;
+  padding: 5px;
+  border-radius: 20px;
+  text-shadow:inset 0px -1px 0px #2b665e;
+  box-shadow:inset 0px 1px 3px 0px #91b8b3;
+  border-color:#34FFAA;
+  border-width: 1px;
+}
 
+.cleanseButton:hover {
+  background:linear-gradient(#24C29D, #6bd193);
+}
+
+.wavy-letters{
+  animation: wavy 1s ease-in-out infinite alternate both;
+  display: inline-block;
 }
