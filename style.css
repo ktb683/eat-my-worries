@@ -11,7 +11,41 @@ body {
   font-size: 50px;
   color: #34FFFF;
   text-align: center;
+  position: relative;
+  z-index: -5;
 }
+
+    /* pointer-events: none; */
+
+.mandala {
+  width: 100vw;
+  height: 100vw;
+  z-index: -1;
+  margin-top: -130px;
+  position: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("./img/cyberpunk-mandala.png");
+
+  animation: spin 100s infinite;
+  animation-timing-function: linear;
+  opacity: 0.25;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.blur {
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+}
+
 
 .worries {
   padding: 10px;
