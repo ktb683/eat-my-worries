@@ -66,5 +66,6 @@ cleanseButton.addEventListener("click", function (event) {
 });
 
 function cleanse() {
-    document.getElementById("worries").textContent = placeHolder;
+  pickPlaceHolder();
+  document.getElementById("worries").textContent = placeHolder;
 }
